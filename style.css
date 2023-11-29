@@ -1321,12 +1321,7 @@
 *:after {
   box-sizing: border-box;
 }
-html,
-body {
-  width: 100%;
-  height: 100%;
-}
-body {
+.banner_body {
   position: relative;
   direction: ltr;
   text-align: left;
@@ -1355,7 +1350,7 @@ img {
 .wrapper {
   position: relative;
   overflow: hidden;
-  height: 100VH;
+  height: 100vh;
   min-height: 500px;
   cursor: move;
   cursor: grab;
