@@ -1321,8 +1321,7 @@
 *:after {
   box-sizing: border-box;
 }
-html,
-body {
+.banner_body {
   position: relative;
   direction: ltr;
   text-align: left;
