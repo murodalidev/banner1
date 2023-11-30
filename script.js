@@ -638,10 +638,11 @@ function loadProject() {
     //  CALLBACK
     Router.listen();
     Submit.listen('.submit');
-    if (!md.mobile()) {
-      Stars.init();
-      init();
-    }
+    Stars.init();
+    init();
+    // if (!md.mobile()) {
+    //
+    // }
     setTimeout(function () {
       $('#signature').removeClass('loading');
     }, Identity.delay * 1.5);
