@@ -1630,6 +1630,19 @@ img {
     height: 100%;
     margin: 0 auto;
 }
+.wrapper span {
+    margin: 0;
+    margin-bottom: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 63px;
+    color: #fff;
+}
+.wrapper .line2 {
+    font-size: 32px;
+    color: #ccc !important;
+}
 
 .mCustomScrollBox,
 .mCSB_container {
