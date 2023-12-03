@@ -7543,3 +7543,17 @@ form .small .status > *:nth-child(2),
 .notFound #yahia {
     filter: grayscale(1);
 }
+
+
+.register-button {
+    background: rgba(224, 164, 88, 0.14);
+    display: inline-block;
+    border-radius: 8px;
+    padding: 24px 36px;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 32px;
+    font-weight: 700;
+    border: 1px solid #e0a458;
+    margin-top: 24px;
+}
