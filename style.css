@@ -1817,6 +1817,21 @@ a.link.small:hover:before {
 }
 
 @media (max-width: 599px) {
+    .main-h1 {
+        margin-bottom: 95px;
+    }
+
+    .main-h1 .line1 {
+        display: flex;
+        flex-wrap: wrap;
+        line-height: 55px;
+        font-size: 36px;
+    }
+
+    .wrapper .line2 {
+        font-size: 22px;
+    }
+
     .links a.link:not(.small) {
         display: block;
     }
@@ -7550,7 +7565,6 @@ form .small .status > *:nth-child(2),
     display: inline-block;
     border-radius: 8px;
     padding: 24px 36px;
-    font-size: 20px;
     font-family: 'Roboto Slab', serif;
     font-size: 32px;
     font-weight: 700;
